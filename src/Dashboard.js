@@ -4,7 +4,7 @@ import { auth, db } from "./firebaseConfig";
 import { doc, getDoc } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
 import gsap from "gsap";
-import "./Dashboard.css";
+import "./App.css";
 const Dashboard = () => {
   const [userData, setUserData] = useState(null);  // Store user data
   const [loading, setLoading] = useState(true);  // Handle loading state
